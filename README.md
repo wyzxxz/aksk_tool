@@ -1,6 +1,13 @@
 # aksk_tool
 aksk tool
 ```
+阿里云AK利用工具，支持调用 ECS, OSS, RDS, REDIS, RAM 管理
+1. ECS      ECS详情查询，命令执行，安全组添加/删除
+2. OSS      OSS文件上传，下载，删除，查询
+3. RDS      RDS详情查询，数据库账号添加/删除
+4. REDIS    REDIS详情查询，密码修改
+5. RAM      RAM账号添加/删除
+ 
 $java -jar aliyun_tool.jar LTAI*******  aaaaaaaaaaaaaaaaaaaaaaaa
 [-] AK: LTAI*******  SK: aaaaaaaaaaaaaaaaaaaaaaaa
 [-] regions list: 
@@ -31,30 +38,30 @@ $java -jar aliyun_tool.jar LTAI*******  aaaaaaaaaaaaaaaaaaaaaaaa
 | 24  | cn-nanjing           | 华东5（南京-本地地域）        |
 
 [-] search Resource: 
-INFO > cn-qingdao          - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-beijing          - FIND ECS COUNT: 10        - FIND MYSQL COUNT: 1         - FIND REDIS COUNT: 2         
-INFO > cn-zhangjiakou      - FIND ECS COUNT: 0         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-huhehaote        - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-wulanchabu       - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-hangzhou         - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 1         - FIND REDIS COUNT: 1         
-INFO > cn-shanghai         - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 1         - FIND REDIS COUNT: 0         
-INFO > cn-shenzhen         - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-heyuan           - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-guangzhou        - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-chengdu          - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-hongkong         - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > ap-northeast-1      - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > ap-southeast-1      - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > ap-southeast-2      - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > ap-southeast-3      - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > ap-southeast-5      - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > ap-south-1          - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > us-east-1           - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > us-west-1           - FIND ECS COUNT: 4         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > eu-west-1           - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > me-east-1           - FIND ECS COUNT: 1         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > eu-central-1        - FIND ECS COUNT: 2         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
-INFO > cn-nanjing          - FIND ECS COUNT: 0         - FIND MYSQL COUNT: 0         - FIND REDIS COUNT: 0         
+INFO > cn-qingdao          - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1 
+INFO > cn-beijing          - ECS: 1    - MYSQL: 3    - SQLServer: 0    - PostgreSQL: 1    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-zhangjiakou      - ECS: 1    - MYSQL: 1    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-huhehaote        - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-wulanchabu       - ECS: 0    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-hangzhou         - ECS: 1    - MYSQL: 1    - SQLServer: 0    - PostgreSQL: 1    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-shanghai         - ECS: 1    - MYSQL: 1    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-shenzhen         - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 1    - OSS_BUCKET: 1   
+INFO > cn-heyuan           - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-guangzhou        - ECS: 0    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-chengdu          - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-hongkong         - ECS: 1    - MYSQL: 1    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > ap-northeast-1      - ECS: 2    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > ap-southeast-1      - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > ap-southeast-2      - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > ap-southeast-3      - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > ap-southeast-5      - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > ap-south-1          - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > us-east-1           - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > us-west-1           - ECS: 4    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > eu-west-1           - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > me-east-1           - ECS: 1    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > eu-central-1        - ECS: 2    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1   
+INFO > cn-nanjing          - ECS: 0    - MYSQL: 0    - SQLServer: 0    - PostgreSQL: 0    - REDIS: 0    - OSS_BUCKET: 1       
 [-] find regions list: 
 0: cn-qingdao -->   ECS: 1  MYSQL: 1
 1: cn-beijing -->   ECS: 10  MYSQL: 1  REDIS: 2
@@ -80,6 +87,14 @@ INFO > cn-nanjing          - FIND ECS COUNT: 0         - FIND MYSQL COUNT: 0    
 [-] please enter the number(0-20)
 > 0
 [-] use region: cn-qingdao
+[-] use region: cn-qingdao
+[-] please choose product: 
+1. ECS
+2. OSS
+3. RDS
+4. REDIS
+5. RAM
+> 1
 [-] Instance list: 
 | Num   | Instance_ID  | Public_IP    | CPU   | Memory     | Instance_Status | OS_Name              | Instance_Name        | Security_Group       |
 | 1     | i-test       | 1.1.1.1      | 4     | 16G        | Running         | Ubuntu  18.04 64位   | test-qingdao-01      | sg-secgroupid        |
