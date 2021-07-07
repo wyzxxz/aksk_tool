@@ -1,14 +1,17 @@
 # aksk_tool
 aksk tool
 ```
-阿里云AK利用工具，支持调用 ECS, OSS, RDS, REDIS, RAM 管理
+阿里云AK利用工具
+支持 AKSK认证，STS认证
+支持调用 ECS, OSS, RDS, REDIS, RAM 管理
 1. ECS      ECS详情查询，命令执行，安全组添加/删除
 2. OSS      OSS文件上传，下载，删除，查询
 3. RDS      RDS详情查询，数据库账号添加/删除
 4. REDIS    REDIS详情查询，密码修改
 5. RAM      RAM账号添加/删除
- 
+
 $java -jar aliyun_tool.jar LTAI*******  aaaaaaaaaaaaaaaaaaaaaaaa
+$java -jar aliyun_tool.jar STS.AAI*******  aaaaaaaaaaaaaaaaaaaaaaaa   TOKENASDASDSADSADASDSAADADSADSA
 [-] AK: LTAI*******  SK: aaaaaaaaaaaaaaaaaaaaaaaa
 [-] regions list: 
 | Num | Region_Id            | Region_Name         |
