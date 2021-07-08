@@ -98,6 +98,7 @@ INFO > cn-nanjing          - ECS: 0    - MYSQL: 0    - SQLServer: 0    - Postgre
 3. RDS
 4. REDIS
 5. RAM
+6. DOMAIN
 > 1
 [-] Instance list: 
 | Num   | Instance_ID  | Public_IP    | CPU   | Memory     | Instance_Status | OS_Name              | Instance_Name        | Security_Group       |
