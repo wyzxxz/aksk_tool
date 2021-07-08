@@ -6,7 +6,7 @@ aksk tool
 支持 ECS, OSS, RDS, REDIS, RAM , DOAIM 的功能调用
 1. ECS      ECS详情查询，命令执行，安全组添加/删除
 2. OSS      OSS文件上传，下载，删除，查询
-3. RDS      RDS详情查询，数据库账号添加/删除
+3. RDS      RDS详情查询，数据库账号添加/删除，IP白名单修改
 4. REDIS    REDIS详情查询，密码修改
 5. RAM      RAM账号添加/删除
 6. DOMAIN   DOMAIN域名查询，子域名解析增删改查等
