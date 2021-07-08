@@ -14,6 +14,9 @@ aksk tool
 $java -jar aliyun_tool.jar LTAI*******  aaaaaaaaaaaaaaaaaaaaaaaa
 $java -jar aliyun_tool.jar STS.AAI*******  aaaaaaaaaaaaaaaaaaaaaaaa   TOKENASDASDSADSADASDSAADADSADSA
 [-] AK: LTAI*******  SK: aaaaaaaaaaaaaaaaaaaaaaaa
+> account name: wyzxxz
+> account uid:  100000000000000
+> account cash: 999999999999999999999
 [-] regions list: 
 | Num | Region_Id            | Region_Name         |
 | 1   | cn-qingdao           | 华北1（青岛）             |
