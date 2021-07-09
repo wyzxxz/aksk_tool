@@ -1,6 +1,10 @@
 # aksk_tool
 aksk tool
 ```
+最新版下载地址：https://xz.aliyun.com/forum/upload/affix/aksk_tool.zip
+
+目前支持 阿里云，腾讯云
+
 阿里云AK利用工具
 支持 AKSK认证，STS认证
 支持 ECS, OSS, RDS, REDIS, RAM , DOAIM 的功能调用
@@ -11,8 +15,18 @@ aksk tool
 5. RAM      RAM账号添加/删除
 6. DOMAIN   DOMAIN域名查询，子域名解析增删改查等
 
-$java -jar aliyun_tool.jar LTAI*******  aaaaaaaaaaaaaaaaaaaaaaaa
-$java -jar aliyun_tool.jar STS.AAI*******  aaaaaaaaaaaaaaaaaaaaaaaa   TOKENASDASDSADSADASDSAADADSADSA
+
+腾讯云AK利用工具
+支持 AKSK认证，TOKEN认证
+支持 CVM, DOAIM, COS 的功能调用
+1. CVM      CVM详情查询，实例启动，关闭，密码重置
+2. DOMAIN   DOMAIN域名查询
+3. COS      COS文件存储，文件的增删改查和临时url生成
+
+
+
+$java -jar aksk_tool.jar LTAI*******  aaaaaaaaaaaaaaaaaaaaaaaa
+$java -jar aksk_tool.jar STS.AAI*******  aaaaaaaaaaaaaaaaaaaaaaaa   TOKENASDASDSADSADASDSAADADSADSA
 [-] AK: LTAI*******  SK: aaaaaaaaaaaaaaaaaaaaaaaa
 > account name: wyzxxz
 > account uid:  100000000000000
