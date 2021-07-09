@@ -5,7 +5,7 @@ aksk tool
 
 目前支持 阿里云，腾讯云
 
-阿里云AK利用工具
+阿里云
 支持 AKSK认证，STS认证
 支持 ECS, OSS, RDS, REDIS, RAM , DOAIM 的功能调用
 1. ECS      ECS详情查询，命令执行，安全组添加/删除
@@ -16,7 +16,7 @@ aksk tool
 6. DOMAIN   DOMAIN域名查询，子域名解析增删改查等
 
 
-腾讯云AK利用工具
+腾讯云
 支持 AKSK认证，TOKEN认证
 支持 CVM, DOAIM, COS 的功能调用
 1. CVM      CVM详情查询，实例启动，关闭，密码重置
