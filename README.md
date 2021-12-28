@@ -1,7 +1,7 @@
 # aksk_tool
 aksk tool
 ```
-最新版下载地址：https://xz.aliyun.com/forum/upload/affix/aksk_tool.zip.zip
+download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/aksk_tool.jar
 
 目前支持 阿里云，腾讯云
 
