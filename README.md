@@ -3,6 +3,8 @@ aksk tool
 ```
 download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/aksk_tool.jar
 
+这次更新，做了部分小优化，等7月的那个活动结束了，考虑公开一个 AKSK_collect_tool，用于批量检测站点泄露的AKSK，
+
 目前支持 阿里云，腾讯云
 
 阿里云
@@ -19,7 +21,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/aksk_tool.jar
 腾讯云
 支持 AKSK认证，TOKEN认证
 支持 CVM, DOAIM, COS 的功能调用
-1. CVM      CVM详情查询，实例启动，关闭，密码重置
+1. CVM      CVM详情查询，实例启动，关闭，密码重置，命令执行（需要安装Agent）
 2. DOMAIN   DOMAIN域名查询
 3. COS      COS文件存储，文件的增删改查和临时url生成
 
