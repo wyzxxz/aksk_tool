@@ -3,7 +3,7 @@ aksk tool
 ```
 download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/aksk_tool.jar
 
-这次更新，做了部分小优化，等7月的那个活动结束了，考虑公开一个 AKSK_collect_tool，用于批量检测站点泄露的AKSK，
+部分优化
 > java -jar aksk_tool.jar
 [-] Usage: java -jar aksk_tool.jar ak sk
 [-] Usage: java -jar aksk_tool.jar ak sk token
