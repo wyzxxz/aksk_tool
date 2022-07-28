@@ -4,8 +4,17 @@ aksk tool
 download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/aksk_tool.jar
 
 这次更新，做了部分小优化，等7月的那个活动结束了，考虑公开一个 AKSK_collect_tool，用于批量检测站点泄露的AKSK，
+> java -jar aksk_tool.jar
+[-] Usage: java -jar aksk_tool.jar ak sk
+[-] Usage: java -jar aksk_tool.jar ak sk token
+[-] Usage: java -jar aksk_tool.jar ak sk region=xxx         指定地域
+[-] Usage: java -jar aksk_tool.jar ak sk product=oss,cos    指定产品
+[-] Usage: java -jar aksk_tool.jar ak sk region=xxx  product=oss,cos    指定地域和产品
 
-目前支持 阿里云，腾讯云
+[-] qiniu Usage: java -jar aksk_tool.jar ak sk bucket_name bucket_url
+
+
+目前支持 阿里云，腾讯云，七牛云存储
 
 阿里云
 支持 AKSK认证，STS认证
@@ -25,6 +34,10 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/aksk_tool.jar
 2. DOMAIN   DOMAIN域名查询
 3. COS      COS文件存储，文件的增删改查和临时url生成
 
+
+七牛云存储
+支持 AKSK认证
+> qiniu Usage: java -jar aksk_tool.jar ak sk bucket_name bucket_url
 
 
 $java -jar aksk_tool.jar LTAI*******  aaaaaaaaaaaaaaaaaaaaaaaa
