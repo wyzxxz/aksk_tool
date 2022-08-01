@@ -37,7 +37,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220801/aksk_tool.
 
 
 华为云
-支持 AKSK认证
+支持 AKSK认证，TOKEN认证
 支持 ECS, RDS, IAM 的功能调用
 1. ECS      CVM详情查询，密码重置，安全组操作
 2. RDS      RDS实例查询
