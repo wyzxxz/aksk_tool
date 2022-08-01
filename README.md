@@ -14,7 +14,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220728/aksk_tool.
 [-] qiniu Usage: java -jar aksk_tool.jar ak sk bucket_name bucket_url
 
 
-目前支持 阿里云，腾讯云，七牛云存储
+目前支持 阿里云，腾讯云，华为云，七牛云存储
 
 阿里云
 支持 AKSK认证，STS认证
@@ -33,6 +33,16 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220728/aksk_tool.
 1. CVM      CVM详情查询，实例启动，关闭，密码重置，命令执行（需要安装Agent）
 2. DOMAIN   DOMAIN域名查询
 3. COS      COS文件存储，文件的增删改查和临时url生成
+4. CDB      CDB数据库账号操作，增删改查等
+
+
+华为云
+支持 AKSK认证
+支持 ECS, RDS, IAM 的功能调用
+1. ECS      CVM详情查询，密码重置，安全组操作
+2. RDS      RDS实例查询
+3. IAM      账户查询，AK创建，用户组用户增删改查
+
 
 
 七牛云存储
