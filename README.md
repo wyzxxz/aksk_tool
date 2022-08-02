@@ -23,7 +23,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220801/aksk_tool.
 2. OSS      OSS文件上传，下载，删除，查询
 3. RDS      RDS详情查询，数据库账号添加/删除，IP白名单修改
 4. REDIS    REDIS详情查询，密码修改
-5. RAM      RAM账号添加/删除
+5. RAM      RAM账号添加/删除, 新增/删除AK
 6. DOMAIN   DOMAIN域名查询，子域名解析增删改查等
 
 
@@ -34,6 +34,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220801/aksk_tool.
 2. DOMAIN   DOMAIN域名查询
 3. COS      COS文件存储，文件的增删改查和临时url生成
 4. CDB      CDB数据库账号操作，增删改查等
+5. CAM      账号（包含AK）增删改查
 
 
 华为云
@@ -41,7 +42,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220801/aksk_tool.
 支持 ECS, RDS, IAM 的功能调用
 1. ECS      CVM详情查询，密码重置，安全组操作
 2. RDS      RDS实例查询
-3. IAM      账户查询，AK创建，用户组用户增删改查
+3. IAM      账户查询，新增AK，用户组用户增删改查
 
 
 
