@@ -176,10 +176,12 @@ INFO > cn-nanjing          - ECS: 0    - MYSQL: 0    - SQLServer: 0    - Postgre
 # Protocol: TCP, Ip:0.0.0.0/0, PortRange:22/22, SourceRange:, Policy:Accept, NicType:intranet, CreatTime:2011-01-02T09:17:09Z
 [-] please enter command, enter q or quit to quit, enter back to re-choose instance
 [-] example: cmd=whoami    sec_group_info=SecruityGroupId    sec_group_add=SecruityGroupId:ip    sec_group_del=SecruityGroupId:ip
-> cmd=curl x.dnslog.com
-[-] command: curl x.dnslog.com
+> cmd=whoami
+[-] command: whoami
 命令创建完成
 命令执行完成
+root
+
 [-] please enter command, enter q or quit to quit, enter back to re-choose instance
 [-] example: cmd=whoami    sec_group_info=SecruityGroupId    sec_group_add=SecruityGroupId:ip    sec_group_del=SecruityGroupId:ip
 > sec_group_add=sg-secgroupid:8.8.8.8
