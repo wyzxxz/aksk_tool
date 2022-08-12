@@ -14,7 +14,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220801/aksk_tool.
 [-] qiniu Usage: java -jar aksk_tool.jar ak sk bucket_name bucket_url
 
 
-目前支持 阿里云，腾讯云，华为云，七牛云存储
+目前支持 阿里云，腾讯云，华为云，AWS，UCLOUD, 京东云，七牛云存储
 
 阿里云
 支持 AKSK认证，STS认证
@@ -44,6 +44,19 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220801/aksk_tool.
 2. RDS      RDS实例查询
 3. IAM      账户查询，新增AK，用户组用户增删改查
 
+AWS
+支持 AKSK认证
+支持 E2, S3, IAM 的功能调用
+
+
+UCLOUD
+支持 AKSK认证
+支持 UHOST, UDB, UFILE 的功能调用
+
+
+京东云
+支持 AKSK认证
+支持 CVM, OSS, RDS 的功能调用
 
 
 七牛云存储
