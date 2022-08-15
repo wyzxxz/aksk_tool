@@ -1,7 +1,7 @@
 # aksk_tool
 aksk tool
 ```
-download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220812/aksk_tool.jar
+download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/20220815/aksk_tool.jar
 
 部分优化
 > java -jar aksk_tool.jar
@@ -56,7 +56,7 @@ UCLOUD
 
 京东云
 支持 AKSK认证
-支持 CVM, OSS, RDS 的功能调用
+支持 CVM, OSS, RDS , AK管理 的功能调用
 
 
 七牛云存储
