@@ -25,6 +25,7 @@ download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220819/aks
 4. REDIS    REDIS详情查询，密码修改
 5. RAM      RAM账号添加/删除, 新增/删除AK
 6. DOMAIN   DOMAIN域名查询，子域名解析增删改查等
+7. ECI      ECI容器增删，以及命令执行
 
 
 腾讯云
