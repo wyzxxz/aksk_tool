@@ -1,7 +1,7 @@
 # aksk_tool
 aksk tool
 ```
-download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220817/aksk_tool.jar
+download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220819/aksk_tool.jar
 
 部分优化
 > java -jar aksk_tool.jar
