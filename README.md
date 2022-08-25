@@ -1,6 +1,11 @@
 # aksk_tool
 aksk tool
 ```
+因为缺少各家AK以及各个产品，部分功能未进行完整测试，如遇到问题和BUG，可提ISSUES，也鼓励大家私聊提供一些AK测试以及完善更多功能。
+因为缺少各家AK以及各个产品，部分功能未进行完整测试，如遇到问题和BUG，可提ISSUES，也鼓励大家私聊提供一些AK测试以及完善更多功能。
+因为缺少各家AK以及各个产品，部分功能未进行完整测试，如遇到问题和BUG，可提ISSUES，也鼓励大家私聊提供一些AK测试以及完善更多功能。
+
+
 download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220819/aksk_tool.jar
 
 部分优化
