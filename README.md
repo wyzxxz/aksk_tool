@@ -5,7 +5,7 @@ aksk tool
 （感谢 黑色键盘，雨了个雨 提供的腾讯云AK测试）
 
 
-download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220819/aksk_tool.jar
+download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220923/aksk_tool.jar
 
 部分优化
 > java -jar aksk_tool.jar
