@@ -2,7 +2,6 @@
 aksk tool
 ```
 因为缺少各云厂商AK以及各个云的产品权限，部分功能未进行完整测试，如遇到问题和BUG，可提ISSUES，也鼓励大家私聊提供一些AK测试以及完善更多功能。
-（感谢 黑色键盘，雨了个雨 提供的腾讯云AK测试）
 
 
 download_url : https://toolaffix.oss-cn-beijing.aliyuncs.com/wyzxxz/20220923/aksk_tool.jar
