@@ -4,7 +4,7 @@ aksk tool
 因为缺少各云厂商AK以及各个云的产品权限，部分功能未进行完整测试，如遇到问题和BUG，可提ISSUES，也鼓励大家私聊提供一些AK测试以及完善更多功能。
 
 
-download_url : https://share.feijipan.com/s/tsAurCFO
+download_url : https://share.feijipan.com/s/5FFQgrO1  或  https://pan.baidu.com/s/1iWCcnIL6XGSs1GKSWrxiPA 提取码: 79yh
 
 部分优化
 > java -jar aksk_tool.jar
@@ -17,7 +17,7 @@ download_url : https://share.feijipan.com/s/tsAurCFO
 [-] qiniu Usage: java -jar aksk_tool.jar ak sk bucket_name bucket_url
 
 
-目前支持 阿里云，腾讯云，华为云，AWS，UCLOUD, 京东云，七牛云存储
+目前支持 阿里云，腾讯云，华为云，AWS，UCLOUD, 京东云，七牛云存储, 百度云，火山引擎
 
 阿里云
 支持 AKSK认证，STS认证
@@ -65,8 +65,11 @@ UCLOUD
 
 百度云
 支持 AKSK认证
-支持 BCC, BOS, RDS 的功能调用
+支持 BCC, BOS, RDS IAM 的功能调用
 
+火山引擎
+支持 AKSK认证，TOKEN认证
+支持 ECS, RDS, TOS, IAM 的功能调用
 
 七牛云存储
 支持 AKSK认证
